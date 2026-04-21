@@ -2,7 +2,7 @@
 Working through exercises and practice code from Hands-On Machine Learning Book from Aurelien Geron with Scikit Learn, Keras and TensorFlow.
 This repo tracks my progress as I work through the book, applying concepts hands-on with real code. Will be explaining each chapter to give insight.
 
-## Chapter 1
+## Chapter 2 - End to End Machine Learning Project
 Looking at Regression models using the California Housing dataset. Practiced the full ML pipeline from data loading to model evaluation.
 Data Exploration and Preparation
 
