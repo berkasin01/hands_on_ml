@@ -34,6 +34,29 @@ Evaluated final model on test set with RMSE and 95% confidence interval using sc
 
 ## Chapter 3 - Classification
 
-Learnt about different Classifier Models such as SGDClassifier, SVM, KNN, etc. How to evaulate these models using StratifiedKFold to split your own data,
-Difference between cross_val_score and cross_val_predict and their use cases for it. How to use confusion matrix, difference between Precision and Recall how to use them scenarios based on the
-needs of the project. Combining Precision and Recall to get F1, how to eval with F1 score. How to use decision function, How to eval with ROC curve which has Recall. MultiClass Classification and how some models use OvO strategy and some models use OvR strategy, error analysis, multioutput classification with images, and finally the data augmentation.
+Explored classification techniques using the MNIST handwritten digit dataset with 70,000 images.
+
+Binary Classification:
+Trained a SGDClassifier to detect a single digit (5 vs not-5)
+Implemented manual cross-validation using StratifiedKFold and clone to understand how it works under the hood
+Compared cross_val_score (returns scores) vs cross_val_predict (returns predictions for each fold)
+
+Evaluation Metrics:
+Built confusion matrices to visualise true/false positives and negatives
+Explored Precision (how many positive predictions were correct) vs Recall (how many actual positives were found)
+Combined Precision and Recall into a single F1 score for balanced evaluation
+Used decision_function to access raw model scores and set custom thresholds using precision_recall_curve and np.argmax
+Plotted ROC curves to visualise the trade-off between true positive rate and false positive rate at all thresholds
+Calculated AUC (Area Under Curve) as a single number summary of model performance
+
+Multiclass Classification:
+Learned how binary classifiers extend to multiclass: OvO (One vs One) trains a model for every pair of classes, OvR (One vs Rest) trains one model per class against all others
+Some models like SVM default to OvO, others like SGD default to OvR
+Performed error analysis using confusion matrices to identify which digits the model confuses most
+
+Multilabel and Multioutput Classification:
+Explored multilabel classification where each input can have multiple labels
+Built a multioutput classifier using KNN to denoise images, predicting clean pixel values from noisy inputs
+
+Data Augmentation:
+Applied transformations to training images to generate additional training data and improve model robustness
