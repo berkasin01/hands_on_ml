@@ -31,3 +31,9 @@ Used cross_val_score with 10 fold CV to get reliable RMSE estimates
 Applied GridSearchCV and RandomizedSearchCV for hyperparameter tuning
 Analysed feature importances from the best model
 Evaluated final model on test set with RMSE and 95% confidence interval using scipy stats
+
+## Chapter 3 - Classification
+
+Learnt about different Classifier Models such as SGDClassifier, SVM, KNN, etc. How to evaulate these models using StratifiedKFold to split your own data,
+Difference between cross_val_score and cross_val_predict and their use cases for it. How to use confusion matrix, difference between Precision and Recall how to use them scenarios based on the
+needs of the project. Combining Precision and Recall to get F1, how to eval with F1 score. How to use decision function, How to eval with ROC curve which has Recall. MultiClass Classification and how some models use OvO strategy and some models use OvR strategy, error analysis, multioutput classification with images, and finally the data augmentation.
