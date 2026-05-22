@@ -60,3 +60,29 @@ Built a multioutput classifier using KNN to denoise images, predicting clean pix
 
 Data Augmentation:
 Applied transformations to training images to generate additional training data and improve model robustness
+
+## Chapter 4 - Training Models
+Linear Regression:
+Explored the Normal Equation and SVD (via np.linalg.lstsq) as closed-form solutions to find optimal parameters directly without iteration
+Understood computational cost of closed-form solutions with large feature sets
+
+Gradient Descent:
+Implemented Batch Gradient Descent using the full training set per step -- slow but stable
+Mini-batch Gradient Descent uses random subsets per step, balancing speed and stability
+Stochastic Gradient Descent uses one instance per step, fast but noisy -- can escape local minima
+
+Polynomial Regression:
+Extended linear models by adding polynomial features using PolynomialFeatures
+Higher degree polynomials fit training data better but overfit -- bias-variance tradeoff
+Used learning curves to diagnose underfitting vs overfitting
+
+Regularisation:
+Ridge Regression adds L2 penalty to shrink coefficients, keeps all features
+Lasso Regression adds L1 penalty, drives some coefficients to zero -- automatic feature selection
+Elastic Net combines L1 and L2 penalties, balancing both approaches
+Early Stopping used as a form of regularisation by halting training when validation error stops improving
+
+Logistic Regression:
+Used for binary classification, outputs probability via sigmoid function
+Trained using cross-entropy loss (log loss)
+Extended to multiclass via Softmax Regression (multinomial logistic regression) using softmax function and cross-entropy
