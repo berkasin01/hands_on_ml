@@ -93,3 +93,6 @@ Extended to multiclass via Softmax Regression (multinomial logistic regression) 
 
 
 ## Chapter 6 - Decision Trees
+
+
+## Chapter 7 - Ensemble and Random Forest 
