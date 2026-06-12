@@ -86,3 +86,10 @@ Logistic Regression:
 Used for binary classification, outputs probability via sigmoid function
 Trained using cross-entropy loss (log loss)
 Extended to multiclass via Softmax Regression (multinomial logistic regression) using softmax function and cross-entropy
+
+## Chapter 5 - SVM
+
+
+
+
+## Chapter 6 - Decision Trees
