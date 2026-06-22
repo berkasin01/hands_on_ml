@@ -96,3 +96,9 @@ Extended to multiclass via Softmax Regression (multinomial logistic regression) 
 
 
 ## Chapter 7 - Ensemble and Random Forest 
+
+
+## Chapter 8 - Dimensionality Reduction 
+
+
+## Chapter 9 - Unsupervirsed Learning Techniques
