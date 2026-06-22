@@ -90,8 +90,6 @@ Extended to multiclass via Softmax Regression (multinomial logistic regression) 
 ## Chapter 5 - SVM
 
 
-
-
 ## Chapter 6 - Decision Trees
 
 
@@ -102,3 +100,4 @@ Extended to multiclass via Softmax Regression (multinomial logistic regression) 
 
 
 ## Chapter 9 - Unsupervirsed Learning Techniques
+
