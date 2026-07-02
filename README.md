@@ -88,7 +88,7 @@ Trained using cross-entropy loss (log loss)
 Extended to multiclass via Softmax Regression (multinomial logistic regression) using softmax function and cross-entropy
 
 ## Chapter 5 - SVM
-
+my pc is not fucking working and Im sorry to myself
 
 ## Chapter 6 - Decision Trees
 
