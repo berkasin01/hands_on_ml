@@ -91,7 +91,8 @@ Extended to multiclass via Softmax Regression (multinomial logistic regression) 
 Looked at different SVR models, how they are constructed.
 
 ## Chapter 6 - Decision Trees
-
+Different Decisions Trees, how they are made - each parameters that changes how a tree behaviour. 
+How to stack multiples trees on top of each other to create Forests.
 
 ## Chapter 7 - Ensemble and Random Forest 
 
