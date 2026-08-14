@@ -1,4 +1,4 @@
-# Hands-On Machine Learning
+Mo no mi# Hands-On Machine Learning
 Working through exercises and practice code from Hands-On Machine Learning Book from Aurelien Geron with Scikit Learn, Keras and TensorFlow.
 This repo tracks my progress as I work through the book, applying concepts hands-on with real code. Will be explaining each chapter to give insight.
 
@@ -104,3 +104,11 @@ How to stack multiples trees on top of each other to create Forests.
 
 ## Chapter 9 - Unsupervirsed Learning Techniques
 
+
+
+Part 2 
+
+## Chapter 10 - Neural Network
+
+
+## Chapter 11 - Deep Neural Networks
