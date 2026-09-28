@@ -116,7 +116,7 @@ How to stack multiples trees on top of each other to create Forests.
 
 ## Chapter 12 - 
 
-## Chapter 13 - please iust work
+## Chapter 13 - 
 
 ## Chapter 14 -
 
@@ -124,4 +124,6 @@ How to stack multiples trees on top of each other to create Forests.
 
 ## Chapter 16 -
 
-## Chapter 17 - idk why 
+## Chapter 17 - 
+
+## Chapter 18 - 
