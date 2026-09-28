@@ -120,7 +120,7 @@ How to stack multiples trees on top of each other to create Forests.
 
 ## Chapter 14 -
 
-## Chapter 15 -
+## Chapter 15 - RNNs 
 
 ## Chapter 16 -
 
