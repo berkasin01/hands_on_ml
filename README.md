@@ -106,7 +106,8 @@ How to stack multiples trees on top of each other to create Forests.
 
 
 
-Part 2 
+# Part 2 
+
 
 ## Chapter 10 - Neural Network
 
@@ -121,4 +122,4 @@ Part 2
 
 ## Chapter 15 -
 
-## Chapter 16 a
+## Chapter 16 -
